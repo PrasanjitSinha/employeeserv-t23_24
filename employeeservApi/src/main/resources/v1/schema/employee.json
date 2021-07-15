@@ -1,0 +1,28 @@
+{
+  "title": "Employee resource",
+  "description": "Employee resource object",
+  "type": "object",
+  "Employee": {
+    "id": 1,
+    "first_name": "test-first-name",
+    "last_name": "chen",
+    "date_of_birth": {
+      "description": "27-00-1993",
+    "address_line1": "line1",
+    "address_line2": "line2",
+    "city": "bangalore",
+    "state": "karnataka",
+    "country": "India",
+    "zip_code": "560068"
+  },
+  "required": [
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "address_line1",
+    "city",
+    "state",
+    "country",
+    "zip_code"
+  ]
+}
